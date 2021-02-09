@@ -48,7 +48,7 @@ while not validInput:
 # region Data Initialisation
 # n is to input complete rotation or half rotation
 n = 1
-noOfPoints = 1000
+noOfPoints = 100
 timePerFrame = ((theta2Max - theta2Min) / dTheta) / noOfPoints
 timeSpace = np.linspace(0, 2 * n * math.pi / dTheta, noOfPoints)
 
