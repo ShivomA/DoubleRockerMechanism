@@ -13,7 +13,12 @@ while not validInput:
     if dTheta <= 0:
         print("Invalid \u03C9")
         continue
+    
     possibleQuad = [2 * le < sum(lengths) for le in lengths]
+    for le in lengths:
+        if le <= 0:
+            possibleQuad.append(False)
+    
     if False in possibleQuad:
         print("Impossible links configurations")
     elif 2 * min(lengths) + 2 * max(lengths) == sum(lengths):
