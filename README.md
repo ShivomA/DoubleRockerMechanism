@@ -9,4 +9,4 @@ Inputs of length should be in specific order (given in image below).
 
 Link 1 is fixed link,
 link 2 is input link
-and link 4 is output link
+and link 4 is output link.
